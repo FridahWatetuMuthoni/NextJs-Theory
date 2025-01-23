@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function page() {
@@ -6,10 +7,10 @@ function page() {
       <h1 className="text-3xl">Dashboard</h1>
       <ul>
         <li>
-          <a href="/dashboard/users">users</a>
+          <Link href="/dashboard/users">users</Link>
         </li>
         <li>
-          <a href="/dashboard/analytics">analytics</a>
+          <Link href="/dashboard/analytics">analytics</Link>
         </li>
       </ul>
     </div>

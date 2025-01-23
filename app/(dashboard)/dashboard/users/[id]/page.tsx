@@ -1,3 +1,11 @@
+/*
+props = {
+    params:{
+      id:1
+    }
+  }
+*/
+
 async function page({ params }: { params: { id: string } }) {
   const { id } = await params;
   return (
